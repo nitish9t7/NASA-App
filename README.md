@@ -29,3 +29,6 @@ NASA App is a demo application for Juno Android Developer Recruitment developed 
 - Local database persistence with [Room](https://developer.android.com/topic/libraries/architecture/room)
 - Dependency Injection with [Hilt](https://dagger.dev/hilt/)
 - Leak Detection with [LeakCanary](https://square.github.io/leakcanary/)
+
+## Build
+- Android Studio
