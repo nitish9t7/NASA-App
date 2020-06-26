@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_key_sync">sync</string>
+    <string name="settings_key_unmetered">unmetered</string>
+    <string name="settings_key_about">about</string>
+    <string name="settings_key_clear">clear</string>
+</resources>

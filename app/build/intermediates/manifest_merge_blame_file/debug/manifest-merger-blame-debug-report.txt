@@ -1,0 +1,392 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.nitish.nasaAPP"
+4    android:versionCode="2"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:5:5-66
+11-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:7:5-78
+12-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:25:5-68
+13-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:27:5-81
+14-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:27:22-78
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- To store the heap dumps and leak analysis results. -->
+15-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:28:5-77
+15-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:28:22-74
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:23:5-80
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:23:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:24:5-81
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:24:22-78
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19
+20    <application
+20-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:9:5-38:19
+21        android:name="app.nitish.nasaAPP.nasaAPPApplication"
+21-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:16:9-61
+22        android:allowBackup="true"
+22-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.0] /root/.gradle/caches/transforms-2/files-2.1/5590f2cdcd20b33a0a155857762172c7/core-1.3.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/App.Theme" >
+31-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:15:9-41
+32        <activity android:name="app.nitish.nasaAPP.MainActivity" >
+32-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:17:9-23:20
+32-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:17:19-65
+33            <intent-filter>
+33-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:18:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:19:17-69
+34-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:19:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:21:17-77
+36-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <receiver
+40-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:24:9-112
+41            android:name="app.nitish.nasaAPP.today.TodaySyncBroadcastReceiver"
+41-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:24:19-85
+42            android:exported="false" />
+42-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:24:86-110
+43
+44        <meta-data
+44-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:25:9-27:57
+45            android:name="preloaded_fonts"
+45-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:26:13-43
+46            android:resource="@array/preloaded_fonts" />
+46-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:27:13-54
+47
+48        <provider
+48-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:28:9-36:20
+49            android:name="app.nitish.nasaAPP.shared.ImageFileProvider"
+49-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:30:13-71
+50            android:authorities="app.nitish.nasaAPP.fileprovider"
+50-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:29:13-66
+51            android:exported="false"
+51-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:31:13-37
+52            android:grantUriPermissions="true" >
+52-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:32:13-47
+53            <meta-data
+53-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:33:13-35:54
+54                android:name="android.support.FILE_PROVIDER_PATHS"
+54-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:34:17-67
+55                android:resource="@xml/file_paths" />
+55-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:35:17-51
+56        </provider>
+57
+58        <service
+58-->[com.squareup.leakcanary:leakcanary-android:2.1] /root/.gradle/caches/transforms-2/files-2.1/b4dda40a0bae9bdabccb8c5d6084fd7d/jetified-leakcanary-android-2.1/AndroidManifest.xml:23:9-25:40
+59            android:name="leakcanary.internal.HeapAnalyzerService"
+59-->[com.squareup.leakcanary:leakcanary-android:2.1] /root/.gradle/caches/transforms-2/files-2.1/b4dda40a0bae9bdabccb8c5d6084fd7d/jetified-leakcanary-android-2.1/AndroidManifest.xml:24:13-67
+60            android:exported="false" />
+60-->[com.squareup.leakcanary:leakcanary-android:2.1] /root/.gradle/caches/transforms-2/files-2.1/b4dda40a0bae9bdabccb8c5d6084fd7d/jetified-leakcanary-android-2.1/AndroidManifest.xml:25:13-37
+61
+62        <provider
+62-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:31:9-37:35
+63            android:name="androidx.work.impl.WorkManagerInitializer"
+63-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:32:13-69
+64            android:authorities="app.nitish.nasaAPP.workmanager-init"
+64-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:33:13-68
+65            android:directBootAware="false"
+65-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:34:13-44
+66            android:exported="false"
+66-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:35:13-37
+67            android:multiprocess="true" />
+67-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:36:13-40
+68
+69        <service
+69-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:39:9-44:35
+70            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+70-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:40:13-88
+71            android:directBootAware="false"
+71-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:41:13-44
+72            android:enabled="@bool/enable_system_alarm_service_default"
+72-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:42:13-72
+73            android:exported="false" />
+73-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:43:13-37
+74        <service
+74-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:45:9-51:35
+75            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+75-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:46:13-84
+76            android:directBootAware="false"
+76-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:47:13-44
+77            android:enabled="@bool/enable_system_job_service_default"
+77-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:48:13-70
+78            android:exported="true"
+78-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:49:13-36
+79            android:permission="android.permission.BIND_JOB_SERVICE" />
+79-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:50:13-69
+80        <service
+80-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:52:9-57:35
+81            android:name="androidx.work.impl.foreground.SystemForegroundService"
+81-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:53:13-81
+82            android:directBootAware="false"
+82-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:54:13-44
+83            android:enabled="@bool/enable_system_foreground_service_default"
+83-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:55:13-77
+84            android:exported="false" />
+84-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:56:13-37
+85
+86        <receiver
+86-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:59:9-64:35
+87            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+87-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:60:13-88
+88            android:directBootAware="false"
+88-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:61:13-44
+89            android:enabled="true"
+89-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:62:13-35
+90            android:exported="false" />
+90-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:63:13-37
+91        <receiver
+91-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:65:9-75:20
+92            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+92-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:66:13-106
+93            android:directBootAware="false"
+93-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:67:13-44
+94            android:enabled="false"
+94-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:68:13-36
+95            android:exported="false" >
+95-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:69:13-37
+96            <intent-filter>
+96-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:71:13-74:29
+97                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+97-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:72:17-87
+97-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:72:25-84
+98                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+98-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:73:17-90
+98-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:73:25-87
+99            </intent-filter>
+100        </receiver>
+101        <receiver
+101-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:76:9-86:20
+102            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+102-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:77:13-104
+103            android:directBootAware="false"
+103-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:78:13-44
+104            android:enabled="false"
+104-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:79:13-36
+105            android:exported="false" >
+105-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:80:13-37
+106            <intent-filter>
+106-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:82:13-85:29
+107                <action android:name="android.intent.action.BATTERY_OKAY" />
+107-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:83:17-77
+107-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:83:25-74
+108                <action android:name="android.intent.action.BATTERY_LOW" />
+108-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:84:17-76
+108-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:84:25-73
+109            </intent-filter>
+110        </receiver>
+111        <receiver
+111-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:87:9-97:20
+112            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+112-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:88:13-104
+113            android:directBootAware="false"
+113-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:89:13-44
+114            android:enabled="false"
+114-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:90:13-36
+115            android:exported="false" >
+115-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:91:13-37
+116            <intent-filter>
+116-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:93:13-96:29
+117                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+117-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:94:17-83
+117-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:94:25-80
+118                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+118-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:95:17-82
+118-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:95:25-79
+119            </intent-filter>
+120        </receiver>
+121        <receiver
+121-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:98:9-107:20
+122            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+122-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:99:13-103
+123            android:directBootAware="false"
+123-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:100:13-44
+124            android:enabled="false"
+124-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:101:13-36
+125            android:exported="false" >
+125-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:102:13-37
+126            <intent-filter>
+126-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:104:13-106:29
+127                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+127-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:105:17-79
+127-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:105:25-76
+128            </intent-filter>
+129        </receiver>
+130        <receiver
+130-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:108:9-119:20
+131            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+131-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:109:13-88
+132            android:directBootAware="false"
+132-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:110:13-44
+133            android:enabled="false"
+133-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:111:13-36
+134            android:exported="false" >
+134-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:112:13-37
+135            <intent-filter>
+135-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:114:13-118:29
+136                <action android:name="android.intent.action.BOOT_COMPLETED" />
+136-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:115:17-79
+136-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:115:25-76
+137                <action android:name="android.intent.action.TIME_SET" />
+137-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:116:17-73
+137-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:116:25-70
+138                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+138-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:117:17-81
+138-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:117:25-78
+139            </intent-filter>
+140        </receiver>
+141        <receiver
+141-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:120:9-129:20
+142            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+142-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:121:13-99
+143            android:directBootAware="false"
+143-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:122:13-44
+144            android:enabled="@bool/enable_system_alarm_service_default"
+144-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:123:13-72
+145            android:exported="false" >
+145-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:124:13-37
+146            <intent-filter>
+146-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:126:13-128:29
+147                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+147-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:127:17-98
+147-->[androidx.work:work-runtime:2.3.4] /root/.gradle/caches/transforms-2/files-2.1/5091e5d66beb88656b5c9521f1ea4219/work-runtime-2.3.4/AndroidManifest.xml:127:25-95
+148            </intent-filter>
+149        </receiver>
+150
+151        <service
+151-->[androidx.room:room-runtime:2.2.5] /root/.gradle/caches/transforms-2/files-2.1/cf53e4d3af172dd9442d6e75255527ae/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+152            android:name="androidx.room.MultiInstanceInvalidationService"
+152-->[androidx.room:room-runtime:2.2.5] /root/.gradle/caches/transforms-2/files-2.1/cf53e4d3af172dd9442d6e75255527ae/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+153            android:directBootAware="true"
+153-->[androidx.room:room-runtime:2.2.5] /root/.gradle/caches/transforms-2/files-2.1/cf53e4d3af172dd9442d6e75255527ae/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+154            android:exported="false" />
+154-->[androidx.room:room-runtime:2.2.5] /root/.gradle/caches/transforms-2/files-2.1/cf53e4d3af172dd9442d6e75255527ae/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+155
+156        <provider
+156-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:29:9-37:20
+157            android:name="leakcanary.internal.LeakCanaryFileProvider"
+157-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:30:13-70
+158            android:authorities="com.squareup.leakcanary.fileprovider.app.nitish.nasaAPP"
+158-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:31:13-88
+159            android:exported="false"
+159-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:32:13-37
+160            android:grantUriPermissions="true" >
+160-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:33:13-47
+161            <meta-data
+161-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:33:13-35:54
+162                android:name="android.support.FILE_PROVIDER_PATHS"
+162-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:34:17-67
+163                android:resource="@xml/leak_canary_file_paths" />
+163-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:35:17-51
+164        </provider>
+165
+166        <activity
+166-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:39:9-44:66
+167            android:name="leakcanary.internal.activity.LeakActivity"
+167-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:40:13-69
+168            android:icon="@mipmap/leak_canary_icon"
+168-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:41:13-52
+169            android:label="@string/leak_canary_display_activity_label"
+169-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:42:13-71
+170            android:taskAffinity="com.squareup.leakcanary.app.nitish.nasaAPP"
+170-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:43:13-76
+171            android:theme="@style/leak_canary_LeakCanary.Base" />
+171-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:44:13-63
+172
+173        <activity-alias
+173-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:46:9-59:26
+174            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+174-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:47:13-77
+175            android:enabled="@bool/leak_canary_add_launcher_icon"
+175-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:48:13-66
+176            android:icon="@mipmap/leak_canary_icon"
+176-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:49:13-52
+177            android:label="@string/leak_canary_display_activity_label"
+177-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:50:13-71
+178            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+178-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:51:13-79
+179            android:taskAffinity="com.squareup.leakcanary.app.nitish.nasaAPP"
+179-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:52:13-76
+180            android:theme="@style/leak_canary_LeakCanary.Base" >
+180-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:53:13-63
+181            <intent-filter>
+181-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:18:13-22:29
+182                <action android:name="android.intent.action.MAIN" />
+182-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:19:17-69
+182-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:19:25-66
+183
+184                <category android:name="android.intent.category.LAUNCHER" />
+184-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:21:17-77
+184-->/root/Documents/GitHub/NASA-App/app/src/main/AndroidManifest.xml:21:27-74
+185            </intent-filter>
+186        </activity-alias>
+187
+188        <activity
+188-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:61:9-67:68
+189            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+189-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:62:13-80
+190            android:excludeFromRecents="true"
+190-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:63:13-46
+191            android:icon="@mipmap/leak_canary_icon"
+191-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:64:13-52
+192            android:label="@string/leak_canary_storage_permission_activity_label"
+192-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:65:13-82
+193            android:taskAffinity="com.squareup.leakcanary.app.nitish.nasaAPP"
+193-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:66:13-76
+194            android:theme="@style/leak_canary_Theme.Transparent" />
+194-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:67:13-65
+195
+196        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+196-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:69:9-77
+196-->[com.squareup.leakcanary:leakcanary-android-core:2.1] /root/.gradle/caches/transforms-2/files-2.1/a8e3af777db88075876b5cc31639d4f0/jetified-leakcanary-android-core-2.1/AndroidManifest.xml:69:19-74
+197
+198        <provider
+198-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.1] /root/.gradle/caches/transforms-2/files-2.1/bfb1b581f65471091854a437829f67bc/jetified-leakcanary-object-watcher-android-2.1/AndroidManifest.xml:8:9-11:40
+199            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+199-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.1] /root/.gradle/caches/transforms-2/files-2.1/bfb1b581f65471091854a437829f67bc/jetified-leakcanary-object-watcher-android-2.1/AndroidManifest.xml:9:13-79
+200            android:authorities="app.nitish.nasaAPP.leakcanary-installer"
+200-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.1] /root/.gradle/caches/transforms-2/files-2.1/bfb1b581f65471091854a437829f67bc/jetified-leakcanary-object-watcher-android-2.1/AndroidManifest.xml:10:13-72
+201            android:exported="false" />
+201-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.1] /root/.gradle/caches/transforms-2/files-2.1/bfb1b581f65471091854a437829f67bc/jetified-leakcanary-object-watcher-android-2.1/AndroidManifest.xml:11:13-37
+202        <provider
+202-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/749363aa759cae1ba0d909af3b0c97d3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+203            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+203-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/749363aa759cae1ba0d909af3b0c97d3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+204            android:authorities="app.nitish.nasaAPP.lifecycle-process"
+204-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/749363aa759cae1ba0d909af3b0c97d3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+205            android:exported="false"
+205-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/749363aa759cae1ba0d909af3b0c97d3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+206            android:multiprocess="true" />
+206-->[androidx.lifecycle:lifecycle-process:2.2.0] /root/.gradle/caches/transforms-2/files-2.1/749363aa759cae1ba0d909af3b0c97d3/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+207    </application>
+208
+209</manifest>
