@@ -2,7 +2,7 @@
 
 NASA App is a demo application for Juno Android Developer Recruitment developed and designed using [Nasa's Astronomy Picture of the Day](https://apod.nasa.gov/apod/).
 
-## Download [APK](https://github.com/nitish9t7/NASA-App/raw/359723095795a490888f38cb566930a144d97d42/app/build/outputs/apk/debug/app-debug.apk)
+## Download [APK](https://github.com/nitish9t7/NASA-App/raw/master/app/build/outputs/apk/debug/app-debug.apk)
 
 ### API Base URL
     https://api.nasa.gov/
